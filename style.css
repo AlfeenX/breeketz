@@ -1,6 +1,6 @@
 :root {
-    --bg-sand: #F5F2EB; /* Warm paper color */
-    --forest-green: #1B3B26; /* Deep organic green */
+    --bg-sand: #F5F2EB; 
+    --forest-green: #1B3B26;
     --soft-grey: #8c9690;
     --font-serif: 'Playfair Display', serif;
     --font-sans: 'Lato', sans-serif;
@@ -61,11 +61,11 @@ body {
 }
 
 main {
-    margin-left: 80px; /* Offset for sidebar */
+    margin-left: 80px; 
     width: calc(100% - 80px);
 }
 
-/* Section 1: Hero */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -128,7 +128,7 @@ main {
     top: 0;
     width: 45%;
     height: 100vh;
-    background: #e0ded6; /* Fallback */
+    background: #e0ded6;
     z-index: 1;
 }
 
@@ -138,10 +138,9 @@ main {
     background-image: url('./assets/hero.jpg');
     background-size: cover;
     background-position: center;
-    filter: sepia(20%) grayscale(20%); /* Artistic filter */
+    filter: sepia(20%) grayscale(20%); 
 }
 
-/* Section 2: Philosophy */
 .philosophy {
     padding: 100px 10%;
     background: white;
@@ -178,7 +177,6 @@ main {
     margin-top: 5px;
 }
 
-/* Section 3: Collection */
 .collection {
     padding: 100px 10%;
 }
