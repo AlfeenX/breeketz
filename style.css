@@ -135,7 +135,7 @@ main {
 .img-placeholder {
     width: 100%;
     height: 100%;
-    background-image: url('./assets/hero.jpg');
+    background-image: url('./assets/hero.webp');
     background-size: cover;
     background-position: center;
     filter: sepia(20%) grayscale(20%); 
@@ -219,14 +219,14 @@ main {
     flex: 1;
     height: 500px;
     background: #dcdcdc;
-    background-image: url('./assets/cubes.jpg');
+    background-image: url('./assets/cubes.webp');
     background-size: cover;
 }
 .prod-img-hexa {
     flex: 1;
     height: 500px;
     background: #dcdcdc;
-    background-image: url('./assets/hexa.jpg');
+    background-image: url('./assets/hexa.webp');
     background-size: cover;
 }
 
